@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".PhoneAuth"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/phone_login_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="25dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Welcome To Phone Authentication"
+            android:textColor="#fff"
+            android:textSize="45sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000"
+                app:mtf_image="@drawable/phone"
+                app:mtf_labelColor="#666">
+
+                <AutoCompleteTextView
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#000"
+
+                    android:hint="Phone Number"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000"
+                app:mtf_image="@drawable/outline_lock_black_18dp"
+                app:mtf_labelColor="#666">
+
+                <EditText
+                    android:id="@+id/otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Verification Code"
+                    android:imeActionId="6"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:visibility="invisible" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:paddingHorizontal="10dp"
+        android:text="You will be send a verification code . Standard charges will apply."
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="submit"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

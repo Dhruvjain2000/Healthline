@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "381810513149",
+    "firebase_url": "https://healthline-b61f2.firebaseio.com",
+    "project_id": "healthline-b61f2",
+    "storage_bucket": "healthline-b61f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381810513149:android:d8de2e400c60d8f3",
+        "android_client_info": {
+          "package_name": "com.example.android.healthline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381810513149-q5uf7e6fa044sb2ubvu1dn3h2637uc4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.healthline",
+            "certificate_hash": "738ed68cb5dcd66d4c3e819c7688f1d9ef649a10"
+          }
+        },
+        {
+          "client_id": "381810513149-qpgpasnc6fufmel33l8s2g3mdkio4rak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUzqenbOFgUPqKHjbHvijvrDz0u_S3Ic0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381810513149-qpgpasnc6fufmel33l8s2g3mdkio4rak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

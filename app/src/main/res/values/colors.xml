@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#FF0DAEF9</color>
+    <color name="colorPrimaryDark">#197c23</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="cyan">#FF15F5F1</color>
+    <color name="yellow">#f6ef64</color>
+    <color name="grey">#d3d2c9</color>
+    <color name="red">#f00</color>
+    <color name="pink">#FFF60AEA</color>
+    <color name="green">#0f0</color>
+    <color name="light_purple">#F7FF00F7</color>
+    <color name="orange">#F7FFB700</color>
+    <color name="peach">#FFFFB39A</color>
+    <!--OnBoard-->
+
+    <color name="selected_dot">#2D9CDB</color>
+    <color name="idle_dot">#662D9CDB</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+
 </resources>
