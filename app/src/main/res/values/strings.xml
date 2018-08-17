@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">HealthLine</string>
     <string name="title_medicine_name">Medicine Name</string>
     <string name="hint_enter_med_name">Enter Medicine</string>
@@ -37,4 +38,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_blood_donation">BloodDonationActivity</string>
     <string name="title_activity_appointments">AppointmentsActivity</string>
+=======
+    <string name="app_name">Health line</string>
+>>>>>>> a27baf82074a79e6a81e38e67cfff518be1fa948
 </resources>

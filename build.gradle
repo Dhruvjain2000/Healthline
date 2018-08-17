@@ -7,7 +7,11 @@ buildscript {
         jcenter()
     }
     dependencies {
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:3.1.4'
+=======
+        classpath 'com.android.tools.build:gradle:3.1.3'
+>>>>>>> a27baf82074a79e6a81e38e67cfff518be1fa948
         
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -25,6 +29,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+<<<<<<< HEAD
 ext {
     minSdkVersion = 16
     targetSdkVersion = 25
@@ -37,3 +42,5 @@ ext {
     butterKniferVersion = '8.7.0'
     junitVersion = '4.12'
 }
+=======
+>>>>>>> a27baf82074a79e6a81e38e67cfff518be1fa948
