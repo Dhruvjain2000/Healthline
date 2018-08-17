@@ -19,4 +19,7 @@
     <color name="ob_header">#4A4A4A</color>
     <color name="ob_desc">#4A4A4A</color>
 
+    <color name="lightGreen">#E0F2F1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
 </resources>
