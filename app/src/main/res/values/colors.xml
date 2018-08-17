@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
+    <color name="colorAccent">#03a9f4</color>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+
+    <color name="color_light_grey">#4d4d4d</color>
+
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+=======
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+>>>>>>> a27baf82074a79e6a81e38e67cfff518be1fa948
 </resources>
