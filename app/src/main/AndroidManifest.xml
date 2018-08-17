@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.harshitgupta.healthline">
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.harshitgupta.healthline.addmedicine.AddMedicineActivity" />
+        <activity android:name="com.harshitgupta.healthline.alarm.ReminderActivity" />
+        <activity android:name=".report.MonthlyReportActivity" />
+        <activity
+            android:name=".medicine.MedicineActivity"
+            android:label="MedicineActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NearestActivity"
+            android:label="@string/title_activity_nearest" />
+        <activity
+            android:name=".BloodDonationActivity"
+            android:label="@string/title_activity_blood_donation" />
+        <activity
+            android:name=".AppointmentsActivity"
+            android:label="@string/title_activity_appointments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrganDonationActivity"></activity>
+    </application>
+
+</manifest>
