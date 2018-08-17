@@ -1,6 +1,7 @@
 package com.example.android.healthline;
 import com.google.android.gms.location.LocationListener;
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.support.annotation.NonNull;
@@ -65,9 +66,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
+    @SuppressLint("RestrictedApi")
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-        request = new LocationRequest().create();
+        new LocationRequest();
+        request = LocationRequest.create();
         request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling

@@ -220,7 +220,7 @@ public class SetupActivity extends AppCompatActivity {
 
         if (task != null) {
 
-            download_uri = task.getResult().getDownloadUrl();
+//            download_uri = task.getResult().getDownloadUrl();
 
         } else {
 
@@ -230,7 +230,7 @@ public class SetupActivity extends AppCompatActivity {
 
         Map<String, String> userMap = new HashMap<>();
         userMap.put("name", user_name);
-        userMap.put("image", download_uri.toString());
+//        userMap.put("image", download_uri.toString());
 
         firebaseFirestore.collection("Users").document(user_id).set(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

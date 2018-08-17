@@ -12,8 +12,8 @@ import java.util.ArrayList;
  */
 
 public class DonationViewPagerAdapter extends FragmentPagerAdapter {
-    ArrayList<Fragment> fragments = new ArrayList<>();
-    ArrayList<String> tabTitles = new ArrayList<>();
+    private ArrayList<Fragment> fragments = new ArrayList<>();
+    private ArrayList<String> tabTitles = new ArrayList<>();
 
     public void addFragments(Fragment fragment, String tabTitles) {
         this.fragments.add(fragment);
